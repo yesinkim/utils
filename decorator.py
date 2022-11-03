@@ -1,3 +1,5 @@
+import time
+
 def logging(func):
     """print spent time and return value"""
     def clocked(*args):
